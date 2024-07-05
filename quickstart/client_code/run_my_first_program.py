@@ -1,5 +1,5 @@
 # Import necessary libraries from the NADA Distributed Secure Computation (DSC) framework
-from nada_ds1 import *
+from nada_dsl import *
 
 # Define the main function of your program
 def nada_main():
@@ -20,6 +20,3 @@ def nada_main():
     # Ensure you return the desired output as a SecretSharing object
     return [Output(my_output, "my_output", party1)]
 
-# Run the main function when the program is executed
-if __name__ == "__main__":
-    nada_main()
